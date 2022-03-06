@@ -117,3 +117,52 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 15px;
+    bottom: 50px;
+  }
+  .again {
+    padding: 10px;
+    right: 10px;
+  }
+  .between {
+    position: relative;
+    top: 100px;
+    left: 67px;
+  }
+  .label-highscore {
+    position: relative;
+    top: 100px;
+    right: 120px;
+  }
+  .label-score {
+    position: relative;
+    top: 100px;
+    right: 120px;
+    margin-bottom: 0;
+  }
+
+  .grid {
+    display: grid;
+  }
+
+  .right {
+    grid-column-start: 2;
+    grid-column-end: 1;
+    font-size: 15px;
+  }
+  .message {
+    text-align: center;
+    font-size: 13px;
+  }
+  .label-score {
+    left: 120px;
+    top: 100px;
+  }
+  .label-highscore {
+    left: 120px;
+    font-size: 13px;
+  }
+}
